@@ -30,7 +30,7 @@ yarn add redux-saga-create
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import { StoreContext, useMappedState } from 'redux-react-hook'
-import { define, createStore } = 'redux-saga-create'
+import { define, createStore } from 'redux-saga-create'
 
 // 定义一个 reducer 和 saga 混合的对象，type 和 action 会自动生成，不需要处理
 const user = define('user', { status: 0 }, {
